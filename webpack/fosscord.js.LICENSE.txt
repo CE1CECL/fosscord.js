@@ -1,8 +1,54 @@
-/*! no static exports found */
+/*! exports provided: Big5Decoder, Big5Encoder */
 
-/*!********************!*\
-  !*** ws (ignored) ***!
-  \********************/
+/*! exports provided: EUCJPDecoder, EUCJPEncoder */
+
+/*! exports provided: EUCKRDecoder, EUCKREncoder */
+
+/*! exports provided: GB18030Decoder, GB18030Encoder */
+
+/*! exports provided: ISO2022JPDecoder, ISO2022JPEncoder */
+
+/*! exports provided: Mixin, decorate, hasMixin, mix, settings */
+
+/*! exports provided: ShiftJISDecoder, ShiftJISEncoder */
+
+/*! exports provided: SingleByteDecoder, SingleByteEncoder */
+
+/*! exports provided: TextEncoder, TextDecoder, EncodingIndexes, getEncoding */
+
+/*! exports provided: UTF16Decoder, UTF16Encoder */
+
+/*! exports provided: UTF8Decoder, UTF8Encoder */
+
+/*! exports provided: XUserDefinedDecoder, XUserDefinedEncoder */
+
+/*! exports provided: __extends, __assign, __rest, __decorate, __param, __metadata, __awaiter, __generator, __createBinding, __exportStar, __values, __read, __spread, __spreadArrays, __spreadArray, __await, __asyncGenerator, __asyncDelegator, __asyncValues, __makeTemplateObject, __importStar, __importDefault, __classPrivateFieldGet, __classPrivateFieldSet */
+
+/*! exports provided: default */
+
+/*! exports provided: default, APIVersion, ActivityFlags, ActivityPlatform, ActivityType, AllowedMentionsTypes, ApplicationCommandOptionType, ApplicationCommandPermissionType, ApplicationFlags, AuditLogEvent, AuditLogOptionsType, ButtonStyle, ChannelType, ComponentType, ConnectionVisibility, EmbedType, FormattingPatterns, GatewayCloseCodes, GatewayDispatchEvents, GatewayIntentBits, GatewayOpcodes, GatewayVersion, GuildDefaultMessageNotifications, GuildExplicitContentFilter, GuildFeature, GuildMFALevel, GuildNSFWLevel, GuildPremiumTier, GuildSystemChannelFlags, GuildVerificationLevel, GuildWidgetStyle, IntegrationExpireBehavior, InteractionResponseType, InteractionType, InviteTargetType, MembershipScreeningFieldType, MessageActivityType, MessageFlags, MessageType, OAuth2Routes, OAuth2Scopes, OverwriteType, PermissionFlagsBits, PresenceUpdateStatus, RESTJSONErrorCodes, RPCCloseEventCodes, RPCErrorCodes, RouteBases, Routes, StageInstancePrivacyLevel, StickerFormatType, StickerType, TeamMemberMembershipState, ThreadAutoArchiveDuration, ThreadMemberFlags, UserFlags, UserPremiumType, Utils, VideoQualityMode, WebhookType */
+
+/*! exports provided: default, APIVersion, OAuth2Routes, RESTJSONErrorCodes, RouteBases, Routes */
+
+/*! exports provided: default, ActivityFlags, ActivityPlatform, ActivityType, AllowedMentionsTypes, ApplicationCommandOptionType, ApplicationCommandPermissionType, ApplicationFlags, AuditLogEvent, AuditLogOptionsType, ButtonStyle, ChannelType, ComponentType, ConnectionVisibility, EmbedType, GuildDefaultMessageNotifications, GuildExplicitContentFilter, GuildFeature, GuildMFALevel, GuildNSFWLevel, GuildPremiumTier, GuildSystemChannelFlags, GuildVerificationLevel, GuildWidgetStyle, IntegrationExpireBehavior, InteractionResponseType, InteractionType, InviteTargetType, MembershipScreeningFieldType, MessageActivityType, MessageFlags, MessageType, OAuth2Scopes, OverwriteType, PermissionFlagsBits, PresenceUpdateStatus, StageInstancePrivacyLevel, StickerFormatType, StickerType, TeamMemberMembershipState, ThreadAutoArchiveDuration, ThreadMemberFlags, UserFlags, UserPremiumType, VideoQualityMode, WebhookType */
+
+/*! exports provided: default, DEFAULT_ENCODING, getEncoding */
+
+/*! exports provided: default, FormattingPatterns */
+
+/*! exports provided: default, GatewayCloseCodes, GatewayDispatchEvents, GatewayIntentBits, GatewayOpcodes, GatewayVersion */
+
+/*! exports provided: default, RPCCloseEventCodes, RPCErrorCodes */
+
+/*! exports provided: default, isApplicationCommandDMInteraction, isApplicationCommandGuildInteraction, isDMInteraction, isGuildInteraction, isInteractionButton, isLinkButton, isMessageComponentDMInteraction, isMessageComponentGuildInteraction */
+
+/*! exports provided: inRange, floor, stringToCodePoints, codePointsToString, decoderError, encoderError, convertCodeUnitToBytes, isASCIIByte, isASCIICodePoint, end_of_stream, finished */
+
+/*! exports provided: indexCodePointFor, indexPointerFor, default, indexGB18030RangesCodePointFor, indexGB18030RangesPointerFor, indexShiftJISPointerFor, indexBig5PointerFor */
+
+/*! exports provided: label_to_encoding, encoders, decoders */
+
+/*! no static exports found */
 
 /*!**********************!*\
   !*** ./package.json ***!
@@ -12,14 +58,6 @@
   !*** ./src/index.js ***!
   \**********************/
 
-/*!***********************!*\
-  !*** https (ignored) ***!
-  \***********************/
-
-/*!*************************!*\
-  !*** erlpack (ignored) ***!
-  \*************************/
-
 /*!**************************!*\
   !*** ./src/WebSocket.js ***!
   \**************************/
@@ -28,16 +66,16 @@
   !*** ./src/util/Util.js ***!
   \**************************/
 
-/*!***************************!*\
-  !*** zlib-sync (ignored) ***!
-  \***************************/
-
 /*!*****************************!*\
   !*** ./src/errors/index.js ***!
   \*****************************/
 
 /*!*****************************!*\
   !*** ./src/util/Intents.js ***!
+  \*****************************/
+
+/*!*****************************!*\
+  !*** ./src/util/Options.js ***!
   \*****************************/
 
 /*!******************************!*\
@@ -97,11 +135,7 @@
   \********************************/
 
 /*!********************************!*\
-  !*** ./src/util/Structures.js ***!
-  \********************************/
-
-/*!********************************!*\
-  !*** worker_threads (ignored) ***!
+  !*** ./src/util/Formatters.js ***!
   \********************************/
 
 /*!*********************************!*\
@@ -121,15 +155,15 @@
   \*********************************/
 
 /*!**********************************!*\
-  !*** ./sharding/Shard (ignored) ***!
-  \**********************************/
-
-/*!**********************************!*\
   !*** ./src/client/BaseClient.js ***!
   \**********************************/
 
 /*!**********************************!*\
   !*** ./src/structures/Invite.js ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/structures/Typing.js ***!
   \**********************************/
 
 /*!**********************************!*\
@@ -146,6 +180,10 @@
 
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** (webpack)/buildin/module.js ***!
   \***********************************/
 
 /*!***********************************!*\
@@ -173,6 +211,10 @@
   \***********************************/
 
 /*!************************************!*\
+  !*** ./node_modules/ws/browser.js ***!
+  \************************************/
+
+/*!************************************!*\
   !*** ./src/rest/RateLimitError.js ***!
   \************************************/
 
@@ -197,6 +239,10 @@
   \*************************************/
 
 /*!*************************************!*\
+  !*** ./src/managers/DataManager.js ***!
+  \*************************************/
+
+/*!*************************************!*\
   !*** ./src/managers/RoleManager.js ***!
   \*************************************/
 
@@ -217,15 +263,11 @@
   \*************************************/
 
 /*!**************************************!*\
-  !*** ./src/client/actions/Action.js ***!
+  !*** ./node_modules/is-obj/index.js ***!
   \**************************************/
 
 /*!**************************************!*\
   !*** ./src/managers/GuildManager.js ***!
-  \**************************************/
-
-/*!**************************************!*\
-  !*** ./src/structures/APIMessage.js ***!
   \**************************************/
 
 /*!**************************************!*\
@@ -253,11 +295,7 @@
   \***************************************/
 
 /*!***************************************!*\
-  !*** ./node_modules/ieee754/index.js ***!
-  \***************************************/
-
-/*!***************************************!*\
-  !*** ./node_modules/isarray/index.js ***!
+  !*** ./src/managers/CachedManager.js ***!
   \***************************************/
 
 /*!***************************************!*\
@@ -277,11 +315,19 @@
   \***************************************/
 
 /*!***************************************!*\
+  !*** ./src/structures/InviteGuild.js ***!
+  \***************************************/
+
+/*!***************************************!*\
   !*** ./src/structures/NewsChannel.js ***!
   \***************************************/
 
 /*!***************************************!*\
   !*** ./src/structures/OAuth2Guild.js ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/structures/StickerPack.js ***!
   \***************************************/
 
 /*!***************************************!*\
@@ -345,11 +391,15 @@
   \****************************************/
 
 /*!*****************************************!*\
-  !*** ./node_modules/base64-js/index.js ***!
+  !*** ./node_modules/callsites/index.js ***!
   \*****************************************/
 
 /*!*****************************************!*\
   !*** ./node_modules/process/browser.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/vali-date/index.js ***!
   \*****************************************/
 
 /*!*****************************************!*\
@@ -384,8 +434,12 @@
   !*** ./src/structures/ThreadChannel.js ***!
   \*****************************************/
 
+/*!*****************************************!*\
+  !*** ./src/structures/WelcomeScreen.js ***!
+  \*****************************************/
+
 /*!******************************************!*\
-  !*** ./src/client/actions/UserUpdate.js ***!
+  !*** ./src/structures/AnonymousGuild.js ***!
   \******************************************/
 
 /*!******************************************!*\
@@ -400,24 +454,20 @@
   !*** ./src/structures/GuildAuditLogs.js ***!
   \******************************************/
 
-/*!*******************************************!*\
-  !*** ./src/client/actions/GuildBanAdd.js ***!
-  \*******************************************/
+/*!******************************************!*\
+  !*** ./src/structures/MessagePayload.js ***!
+  \******************************************/
 
-/*!*******************************************!*\
-  !*** ./src/client/actions/GuildDelete.js ***!
-  \*******************************************/
-
-/*!*******************************************!*\
-  !*** ./src/client/actions/GuildUpdate.js ***!
-  \*******************************************/
-
-/*!*******************************************!*\
-  !*** ./src/client/actions/TypingStart.js ***!
-  \*******************************************/
+/*!******************************************!*\
+  !*** ./src/structures/WelcomeChannel.js ***!
+  \******************************************/
 
 /*!*******************************************!*\
   !*** ./src/managers/GuildEmojiManager.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/managers/VoiceStateManager.js ***!
   \*******************************************/
 
 /*!*******************************************!*\
@@ -433,31 +483,7 @@
   \*******************************************/
 
 /*!********************************************!*\
-  !*** ./node_modules/node-fetch/browser.js ***!
-  \********************************************/
-
-/*!********************************************!*\
-  !*** ./sharding/ShardClientUtil (ignored) ***!
-  \********************************************/
-
-/*!********************************************!*\
-  !*** ./sharding/ShardingManager (ignored) ***!
-  \********************************************/
-
-/*!********************************************!*\
-  !*** ./src/client/actions/InviteCreate.js ***!
-  \********************************************/
-
-/*!********************************************!*\
-  !*** ./src/client/actions/InviteDelete.js ***!
-  \********************************************/
-
-/*!********************************************!*\
-  !*** ./src/client/actions/ThreadCreate.js ***!
-  \********************************************/
-
-/*!********************************************!*\
-  !*** ./src/client/actions/ThreadDelete.js ***!
+  !*** ./src/managers/GuildInviteManager.js ***!
   \********************************************/
 
 /*!********************************************!*\
@@ -472,40 +498,12 @@
   !*** ./src/structures/MessageCollector.js ***!
   \********************************************/
 
-/*!********************************************!*\
-  !*** ./voice/ClientVoiceManager (ignored) ***!
-  \********************************************/
-
-/*!*********************************************!*\
-  !*** ../sharding/ShardClientUtil (ignored) ***!
-  \*********************************************/
-
-/*!*********************************************!*\
-  !*** ./src/client/actions/ChannelCreate.js ***!
-  \*********************************************/
-
-/*!*********************************************!*\
-  !*** ./src/client/actions/ChannelDelete.js ***!
-  \*********************************************/
-
-/*!*********************************************!*\
-  !*** ./src/client/actions/ChannelUpdate.js ***!
-  \*********************************************/
-
-/*!*********************************************!*\
-  !*** ./src/client/actions/MessageCreate.js ***!
-  \*********************************************/
-
-/*!*********************************************!*\
-  !*** ./src/client/actions/MessageDelete.js ***!
-  \*********************************************/
-
-/*!*********************************************!*\
-  !*** ./src/client/actions/MessageUpdate.js ***!
-  \*********************************************/
-
 /*!*********************************************!*\
   !*** ./src/managers/GuildChannelManager.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/managers/GuildStickerManager.js ***!
   \*********************************************/
 
 /*!*********************************************!*\
@@ -541,23 +539,15 @@
   \*********************************************/
 
 /*!**********************************************!*\
-  !*** ./src/client/actions/ActionsManager.js ***!
+  !*** ./node_modules/discord-api-types/v9.js ***!
   \**********************************************/
 
 /*!**********************************************!*\
-  !*** ./src/client/actions/GuildBanRemove.js ***!
+  !*** ./node_modules/lodash.isequal/index.js ***!
   \**********************************************/
 
 /*!**********************************************!*\
-  !*** ./src/client/actions/PresenceUpdate.js ***!
-  \**********************************************/
-
-/*!**********************************************!*\
-  !*** ./src/client/actions/ThreadListSync.js ***!
-  \**********************************************/
-
-/*!**********************************************!*\
-  !*** ./src/client/actions/WebhooksUpdate.js ***!
+  !*** ./src/managers/StageInstanceManager.js ***!
   \**********************************************/
 
 /*!**********************************************!*\
@@ -573,15 +563,7 @@
   \**********************************************/
 
 /*!***********************************************!*\
-  !*** ./src/client/actions/GuildRoleCreate.js ***!
-  \***********************************************/
-
-/*!***********************************************!*\
-  !*** ./src/client/actions/GuildRoleDelete.js ***!
-  \***********************************************/
-
-/*!***********************************************!*\
-  !*** ./src/client/actions/GuildRoleUpdate.js ***!
+  !*** ./node_modules/discord-api-types/v9.mjs ***!
   \***********************************************/
 
 /*!***********************************************!*\
@@ -592,24 +574,16 @@
   !*** ./src/managers/GuildEmojiRoleManager.js ***!
   \***********************************************/
 
+/*!***********************************************!*\
+  !*** ./src/structures/InviteStageInstance.js ***!
+  \***********************************************/
+
 /*!************************************************!*\
   !*** ./node_modules/timers-browserify/main.js ***!
   \************************************************/
 
 /*!************************************************!*\
-  !*** ./src/client/actions/GuildEmojiCreate.js ***!
-  \************************************************/
-
-/*!************************************************!*\
-  !*** ./src/client/actions/GuildEmojiDelete.js ***!
-  \************************************************/
-
-/*!************************************************!*\
-  !*** ./src/client/actions/GuildEmojiUpdate.js ***!
-  \************************************************/
-
-/*!************************************************!*\
-  !*** ./src/client/actions/VoiceStateUpdate.js ***!
+  !*** ./src/client/voice/ClientVoiceManager.js ***!
   \************************************************/
 
 /*!************************************************!*\
@@ -617,19 +591,19 @@
   \************************************************/
 
 /*!************************************************!*\
-  !*** ./src/client/websocket/handlers/READY.js ***!
-  \************************************************/
-
-/*!************************************************!*\
-  !*** ./src/client/websocket/handlers/index.js ***!
-  \************************************************/
-
-/*!************************************************!*\
   !*** ./src/managers/GuildMemberRoleManager.js ***!
   \************************************************/
 
 /*!************************************************!*\
+  !*** ./src/structures/BaseGuildTextChannel.js ***!
+  \************************************************/
+
+/*!************************************************!*\
   !*** ./src/structures/BaseMessageComponent.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./src/structures/InteractionCollector.js ***!
   \************************************************/
 
 /*!************************************************!*\
@@ -641,23 +615,15 @@
   \************************************************/
 
 /*!*************************************************!*\
-  !*** ./src/client/actions/GuildEmojisUpdate.js ***!
+  !*** ./node_modules/text-decoding/src/index.js ***!
   \*************************************************/
 
 /*!*************************************************!*\
-  !*** ./src/client/actions/GuildMemberRemove.js ***!
+  !*** ./node_modules/text-decoding/src/table.js ***!
   \*************************************************/
 
 /*!*************************************************!*\
-  !*** ./src/client/actions/GuildMemberUpdate.js ***!
-  \*************************************************/
-
-/*!*************************************************!*\
-  !*** ./src/client/actions/InteractionCreate.js ***!
-  \*************************************************/
-
-/*!*************************************************!*\
-  !*** ./src/client/actions/MessageDeleteBulk.js ***!
+  !*** ./node_modules/text-decoding/src/utils.js ***!
   \*************************************************/
 
 /*!*************************************************!*\
@@ -665,27 +631,19 @@
   \*************************************************/
 
 /*!*************************************************!*\
+  !*** ./src/structures/PartialGroupDMChannel.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
   !*** ./src/structures/SelectMenuInteraction.js ***!
   \*************************************************/
 
 /*!**************************************************!*\
-  !*** ./node_modules/abort-controller/browser.js ***!
-  \**************************************************/
-
-/*!**************************************************!*\
-  !*** ./src/client/actions/MessageReactionAdd.js ***!
-  \**************************************************/
-
-/*!**************************************************!*\
-  !*** ./src/client/actions/ThreadMemberUpdate.js ***!
+  !*** ./node_modules/discord-api-types/rpc/v9.js ***!
   \**************************************************/
 
 /*!**************************************************!*\
   !*** ./src/client/websocket/WebSocketManager.js ***!
-  \**************************************************/
-
-/*!**************************************************!*\
-  !*** ./src/client/websocket/handlers/RESUMED.js ***!
   \**************************************************/
 
 /*!**************************************************!*\
@@ -697,59 +655,63 @@
   \**************************************************/
 
 /*!***************************************************!*\
+  !*** ./node_modules/discord-api-types/globals.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/discord-api-types/rpc/v9.mjs ***!
+  \***************************************************/
+
+/*!***************************************************!*\
   !*** ./node_modules/setimmediate/setImmediate.js ***!
   \***************************************************/
 
 /*!***************************************************!*\
-  !*** ./src/client/actions/StageInstanceCreate.js ***!
-  \***************************************************/
-
-/*!***************************************************!*\
-  !*** ./src/client/actions/StageInstanceDelete.js ***!
-  \***************************************************/
-
-/*!***************************************************!*\
-  !*** ./src/client/actions/StageInstanceUpdate.js ***!
-  \***************************************************/
-
-/*!***************************************************!*\
-  !*** ./src/client/actions/ThreadMembersUpdate.js ***!
+  !*** ./node_modules/text-decoding/src/indexes.js ***!
   \***************************************************/
 
 /*!***************************************************!*\
   !*** ./src/managers/ApplicationCommandManager.js ***!
   \***************************************************/
 
+/*!****************************************************!*\
+  !*** ./node_modules/discord-api-types/globals.mjs ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/discord-api-types/utils/v9.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/managers/PermissionOverwriteManager.js ***!
+  \****************************************************/
+
 /*!*****************************************************!*\
-  !*** ./src/client/actions/MessageReactionRemove.js ***!
+  !*** ./node_modules/@sindresorhus/is/dist/index.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/discord-api-types/utils/v9.mjs ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/text-decoding/src/encodings.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/text-decoding/src/lib/index.js ***!
   \*****************************************************/
 
 /*!******************************************************!*\
-  !*** ./node_modules/node-libs-browser/mock/empty.js ***!
-  \******************************************************/
-
-/*!******************************************************!*\
-  !*** ./src/client/websocket/handlers/USER_UPDATE.js ***!
+  !*** ./node_modules/discord-api-types/gateway/v9.js ***!
   \******************************************************/
 
 /*!*******************************************************!*\
-  !*** ./src/client/actions/GuildIntegrationsUpdate.js ***!
+  !*** ./node_modules/discord-api-types/gateway/v9.mjs ***!
   \*******************************************************/
 
 /*!*******************************************************!*\
-  !*** ./src/client/websocket/handlers/GUILD_CREATE.js ***!
-  \*******************************************************/
-
-/*!*******************************************************!*\
-  !*** ./src/client/websocket/handlers/GUILD_DELETE.js ***!
-  \*******************************************************/
-
-/*!*******************************************************!*\
-  !*** ./src/client/websocket/handlers/GUILD_UPDATE.js ***!
-  \*******************************************************/
-
-/*!*******************************************************!*\
-  !*** ./src/client/websocket/handlers/TYPING_START.js ***!
+  !*** ./node_modules/discord-api-types/rest/common.js ***!
   \*******************************************************/
 
 /*!*******************************************************!*\
@@ -761,35 +723,7 @@
   \*******************************************************/
 
 /*!********************************************************!*\
-  !*** ./src/client/actions/GuildRolesPositionUpdate.js ***!
-  \********************************************************/
-
-/*!********************************************************!*\
-  !*** ./src/client/actions/MessageReactionRemoveAll.js ***!
-  \********************************************************/
-
-/*!********************************************************!*\
-  !*** ./src/client/websocket/handlers/GUILD_BAN_ADD.js ***!
-  \********************************************************/
-
-/*!********************************************************!*\
-  !*** ./src/client/websocket/handlers/INVITE_CREATE.js ***!
-  \********************************************************/
-
-/*!********************************************************!*\
-  !*** ./src/client/websocket/handlers/INVITE_DELETE.js ***!
-  \********************************************************/
-
-/*!********************************************************!*\
-  !*** ./src/client/websocket/handlers/THREAD_CREATE.js ***!
-  \********************************************************/
-
-/*!********************************************************!*\
-  !*** ./src/client/websocket/handlers/THREAD_DELETE.js ***!
-  \********************************************************/
-
-/*!********************************************************!*\
-  !*** ./src/client/websocket/handlers/THREAD_UPDATE.js ***!
+  !*** ./node_modules/discord-api-types/rest/v9/user.js ***!
   \********************************************************/
 
 /*!********************************************************!*\
@@ -797,83 +731,107 @@
   \********************************************************/
 
 /*!*********************************************************!*\
-  !*** ./src/client/websocket/handlers sync ^\.\/.*\.js$ ***!
+  !*** ./node_modules/discord-api-types/rest/v9/emoji.js ***!
   \*********************************************************/
 
 /*!*********************************************************!*\
-  !*** ./src/client/websocket/handlers/CHANNEL_CREATE.js ***!
+  !*** ./node_modules/discord-api-types/rest/v9/guild.js ***!
   \*********************************************************/
 
 /*!*********************************************************!*\
-  !*** ./src/client/websocket/handlers/CHANNEL_DELETE.js ***!
+  !*** ./node_modules/discord-api-types/rest/v9/index.js ***!
   \*********************************************************/
 
 /*!*********************************************************!*\
-  !*** ./src/client/websocket/handlers/CHANNEL_UPDATE.js ***!
+  !*** ./node_modules/discord-api-types/rest/v9/voice.js ***!
   \*********************************************************/
 
 /*!*********************************************************!*\
-  !*** ./src/client/websocket/handlers/MESSAGE_CREATE.js ***!
-  \*********************************************************/
-
-/*!*********************************************************!*\
-  !*** ./src/client/websocket/handlers/MESSAGE_DELETE.js ***!
-  \*********************************************************/
-
-/*!*********************************************************!*\
-  !*** ./src/client/websocket/handlers/MESSAGE_UPDATE.js ***!
+  !*** ./node_modules/fosscord.js-builders/dist/index.js ***!
   \*********************************************************/
 
 /*!**********************************************************!*\
-  !*** ./node_modules/@discordjs/form-data/lib/browser.js ***!
+  !*** ./node_modules/@discordjs/collection/dist/index.js ***!
   \**********************************************************/
 
 /*!**********************************************************!*\
-  !*** ./src/client/actions/MessageReactionRemoveEmoji.js ***!
+  !*** ./node_modules/discord-api-types/gateway/common.js ***!
   \**********************************************************/
 
 /*!**********************************************************!*\
-  !*** ./src/client/websocket/handlers/PRESENCE_UPDATE.js ***!
+  !*** ./node_modules/discord-api-types/rest/v9/index.mjs ***!
   \**********************************************************/
 
 /*!**********************************************************!*\
-  !*** ./src/client/websocket/handlers/WEBHOOKS_UPDATE.js ***!
+  !*** ./node_modules/discord-api-types/rest/v9/invite.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/discord-api-types/rest/v9/oauth2.js ***!
   \**********************************************************/
 
 /*!***********************************************************!*\
-  !*** ./src/client/actions/GuildChannelsPositionUpdate.js ***!
+  !*** ./node_modules/discord-api-types/rest/v9/channel.js ***!
   \***********************************************************/
 
 /*!***********************************************************!*\
-  !*** ./src/client/websocket/handlers/GUILD_BAN_REMOVE.js ***!
+  !*** ./node_modules/discord-api-types/rest/v9/gateway.js ***!
   \***********************************************************/
 
 /*!***********************************************************!*\
-  !*** ./src/client/websocket/handlers/GUILD_MEMBER_ADD.js ***!
+  !*** ./node_modules/discord-api-types/rest/v9/sticker.js ***!
   \***********************************************************/
 
 /*!***********************************************************!*\
-  !*** ./src/client/websocket/handlers/THREAD_LIST_SYNC.js ***!
+  !*** ./node_modules/discord-api-types/rest/v9/webhook.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/text-decoding/src/lib/TextDecoder.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/text-decoding/src/lib/TextEncoder.js ***!
   \***********************************************************/
 
 /*!************************************************************!*\
-  !*** ./src/client/websocket/handlers/GUILD_ROLE_CREATE.js ***!
+  !*** ./node_modules/discord-api-types/payloads/v9/user.js ***!
   \************************************************************/
 
 /*!************************************************************!*\
-  !*** ./src/client/websocket/handlers/GUILD_ROLE_DELETE.js ***!
+  !*** ./node_modules/discord-api-types/rest/v9/auditLog.js ***!
   \************************************************************/
 
 /*!************************************************************!*\
-  !*** ./src/client/websocket/handlers/GUILD_ROLE_UPDATE.js ***!
+  !*** ./node_modules/discord-api-types/rest/v9/template.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/text-decoding/src/encoding-indexes.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./src/structures/CommandInteractionOptionResolver.js ***!
   \************************************************************/
 
 /*!*************************************************************!*\
-  !*** ./src/client/websocket/handlers/INTERACTION_CREATE.js ***!
+  !*** ./node_modules/discord-api-types/payloads/v9/emoji.js ***!
   \*************************************************************/
 
 /*!*************************************************************!*\
-  !*** ./src/client/websocket/handlers/VOICE_STATE_UPDATE.js ***!
+  !*** ./node_modules/discord-api-types/payloads/v9/guild.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/discord-api-types/payloads/v9/index.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/discord-api-types/payloads/v9/teams.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/discord-api-types/payloads/v9/voice.js ***!
   \*************************************************************/
 
 /*!**************************************************************!*\
@@ -881,101 +839,337 @@
   \**************************************************************/
 
 /*!**************************************************************!*\
-  !*** ./src/client/websocket/handlers/CHANNEL_PINS_UPDATE.js ***!
+  !*** ./node_modules/discord-api-types/payloads/v9/index.mjs ***!
   \**************************************************************/
 
 /*!**************************************************************!*\
-  !*** ./src/client/websocket/handlers/GUILD_EMOJIS_UPDATE.js ***!
+  !*** ./node_modules/discord-api-types/payloads/v9/invite.js ***!
   \**************************************************************/
 
 /*!**************************************************************!*\
-  !*** ./src/client/websocket/handlers/GUILD_MEMBERS_CHUNK.js ***!
+  !*** ./node_modules/discord-api-types/payloads/v9/oauth2.js ***!
   \**************************************************************/
 
 /*!**************************************************************!*\
-  !*** ./src/client/websocket/handlers/GUILD_MEMBER_REMOVE.js ***!
-  \**************************************************************/
-
-/*!**************************************************************!*\
-  !*** ./src/client/websocket/handlers/GUILD_MEMBER_UPDATE.js ***!
-  \**************************************************************/
-
-/*!**************************************************************!*\
-  !*** ./src/client/websocket/handlers/MESSAGE_DELETE_BULK.js ***!
-  \**************************************************************/
-
-/*!**************************************************************!*\
-  !*** ./src/client/websocket/handlers/VOICE_SERVER_UPDATE.js ***!
+  !*** ./src/managers/ApplicationCommandPermissionsManager.js ***!
   \**************************************************************/
 
 /*!***************************************************************!*\
-  !*** ./src/client/websocket/handlers/MESSAGE_REACTION_ADD.js ***!
+  !*** ./node_modules/discord-api-types/payloads/v9/channel.js ***!
   \***************************************************************/
 
 /*!***************************************************************!*\
-  !*** ./src/client/websocket/handlers/THREAD_MEMBER_UPDATE.js ***!
+  !*** ./node_modules/discord-api-types/payloads/v9/gateway.js ***!
+  \***************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./node_modules/discord-api-types/payloads/v9/sticker.js ***!
+  \***************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./node_modules/discord-api-types/payloads/v9/webhook.js ***!
   \***************************************************************/
 
 /*!****************************************************************!*\
-  !*** ./src/client/websocket/handlers/STAGE_INSTANCE_CREATE.js ***!
+  !*** ./node_modules/discord-api-types/payloads/v9/auditLog.js ***!
   \****************************************************************/
 
 /*!****************************************************************!*\
-  !*** ./src/client/websocket/handlers/STAGE_INSTANCE_DELETE.js ***!
+  !*** ./node_modules/discord-api-types/payloads/v9/template.js ***!
   \****************************************************************/
 
 /*!****************************************************************!*\
-  !*** ./src/client/websocket/handlers/STAGE_INSTANCE_UPDATE.js ***!
+  !*** ./node_modules/discord-api-types/rest/v9/interactions.js ***!
   \****************************************************************/
 
 /*!****************************************************************!*\
-  !*** ./src/client/websocket/handlers/THREAD_MEMBERS_UPDATE.js ***!
+  !*** ./node_modules/text-decoding/src/implementations/big5.js ***!
   \****************************************************************/
 
 /*!****************************************************************!*\
-  !*** ./src/structures/MessageComponentInteractionCollector.js ***!
+  !*** ./node_modules/text-decoding/src/implementations/utf8.js ***!
   \****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/discord-api-types/rest/v9/stageInstance.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/text-decoding/src/implementations/utf16.js ***!
+  \*****************************************************************/
 
 /*!******************************************************************!*\
   !*** ./node_modules/node-libs-browser/node_modules/util/util.js ***!
   \******************************************************************/
 
 /*!******************************************************************!*\
-  !*** ./src/client/websocket/handlers/MESSAGE_REACTION_REMOVE.js ***!
+  !*** ./node_modules/text-decoding/src/implementations/euc-jp.js ***!
   \******************************************************************/
 
+/*!******************************************************************!*\
+  !*** ./node_modules/text-decoding/src/implementations/euc-kr.js ***!
+  \******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/discord-api-types/payloads/v9/application.js ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/discord-api-types/payloads/v9/permissions.js ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/text-decoding/src/implementations/gb18030.js ***!
+  \*******************************************************************/
+
 /*!********************************************************************!*\
-  !*** ./src/client/websocket/handlers/GUILD_INTEGRATIONS_UPDATE.js ***!
+  !*** ./node_modules/discord-api-types/payloads/v9/interactions.js ***!
   \********************************************************************/
 
 /*!*********************************************************************!*\
-  !*** ./node_modules/node-libs-browser/node_modules/buffer/index.js ***!
+  !*** ./node_modules/discord-api-types/payloads/v9/stageInstance.js ***!
   \*********************************************************************/
 
 /*!*********************************************************************!*\
-  !*** ./src/client/websocket/handlers/APPLICATION_COMMAND_CREATE.js ***!
+  !*** ./node_modules/text-decoding/src/implementations/shift-jis.js ***!
   \*********************************************************************/
 
-/*!*********************************************************************!*\
-  !*** ./src/client/websocket/handlers/APPLICATION_COMMAND_DELETE.js ***!
-  \*********************************************************************/
+/*!***********************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/dist/messages/formatters.js ***!
+  \***********************************************************************/
 
-/*!*********************************************************************!*\
-  !*** ./src/client/websocket/handlers/APPLICATION_COMMAND_UPDATE.js ***!
-  \*********************************************************************/
+/*!***********************************************************************!*\
+  !*** ./node_modules/text-decoding/src/implementations/iso-2022-jp.js ***!
+  \***********************************************************************/
 
-/*!**********************************************************************!*\
-  !*** ./src/client/websocket/handlers/MESSAGE_REACTION_REMOVE_ALL.js ***!
-  \**********************************************************************/
+/*!***********************************************************************!*\
+  !*** ./node_modules/text-decoding/src/implementations/single-byte.js ***!
+  \***********************************************************************/
 
 /*!************************************************************************!*\
-  !*** ./src/client/websocket/handlers/MESSAGE_REACTION_REMOVE_EMOJI.js ***!
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/test.js ***!
   \************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/index.js ***!
+  \*************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/discord-api-types/payloads/v9/_interactions/base.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/discord-api-types/payloads/v9/_interactions/ping.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/dot-prop/index.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/text-decoding/src/implementations/x-user-defined.js ***!
+  \**************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/tslib/tslib.es6.js ***!
+  \***************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/modifiers.js ***!
+  \*****************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates.js ***!
+  \******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/discord-api-types/payloads/v9/_interactions/responses.js ***!
+  \*******************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/operators/not.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/utils/of-type.js ***!
+  \*********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/argument-error.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/any.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/map.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/set.js ***!
+  \**********************************************************************************/
 
 /*!**********************************************************************************!*\
   !*** ./node_modules/node-libs-browser/node_modules/inherits/inherits_browser.js ***!
   \**********************************************************************************/
 
+/*!***********************************************************************************!*\
+  !*** ./node_modules/discord-api-types/payloads/v9/_interactions/slashCommands.js ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/date.js ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/utils/has-items.js ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/utils/random-id.js ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ts-mixer/dist/esm/index.js ***!
+  \***********************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/array.js ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/error.js ***!
+  \************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/bigint.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/number.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/object.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/string.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/utils/match-shape.js ***!
+  \*************************************************************************************/
+
 /*!*************************************************************************************!*\
   !*** ./node_modules/node-libs-browser/node_modules/util/support/isBufferBrowser.js ***!
   \*************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/boolean.js ***!
+  \**************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/utils/of-type-deep.js ***!
+  \**************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/discord-api-types/payloads/v9/_interactions/messageComponents.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/weak-map.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/weak-set.js ***!
+  \***************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/data-view.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/predicate.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/utils/generate-stack.js ***!
+  \****************************************************************************************/
+
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/dist/interactions/slashCommands/Assertions.js ***!
+  \*****************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/typed-array.js ***!
+  \******************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/dist/interactions/slashCommands/options/role.js ***!
+  \*******************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/dist/interactions/slashCommands/options/user.js ***!
+  \*******************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/array-buffer.js ***!
+  \*******************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/dist/interactions/slashCommands/options/string.js ***!
+  \*********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/predicates/base-predicate.js ***!
+  \*********************************************************************************************/
+
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/utils/infer-label.browser.js ***!
+  \*********************************************************************************************/
+
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/dist/interactions/slashCommands/options/boolean.js ***!
+  \**********************************************************************************************/
+
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/dist/interactions/slashCommands/options/channel.js ***!
+  \**********************************************************************************************/
+
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/dist/interactions/slashCommands/options/integer.js ***!
+  \**********************************************************************************************/
+
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/dist/interactions/slashCommands/SlashCommandBuilder.js ***!
+  \**************************************************************************************************/
+
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/dist/interactions/slashCommands/options/mentionable.js ***!
+  \**************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/dist/interactions/slashCommands/mixins/CommandOptions.js ***!
+  \****************************************************************************************************/
+
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/dist/interactions/slashCommands/SlashCommandSubCommands.js ***!
+  \******************************************************************************************************/
+
+/*!*******************************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/dist/interactions/slashCommands/mixins/CommandOptionBase.js ***!
+  \*******************************************************************************************************/
+
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/dist/interactions/slashCommands/mixins/NameAndDescription.js ***!
+  \********************************************************************************************************/
+
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/node_modules/ow/dist/utils/generate-argument-error-message.js ***!
+  \*********************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/fosscord.js-builders/dist/interactions/slashCommands/mixins/CommandOptionWithChoices.js ***!
+  \**************************************************************************************************************/
